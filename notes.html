@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Websoyte</title>
+    <link href="css/site.css" rel="stylesheet">
+</head>
+<body>
+<script src="js/navigation.js"></script>
+<h1>Websoyte - Notes</h1>
+<h2>ObScript Bytecode</h2>
+<p>A simple <code>Call</code> looks like this in bytecode:</p>
+<pre><code>
+    XX XX (opcode of function to call)
+    XX XX (opcode length)
+    XX XX (number of arguments)
+
+    FF FF (start of parameter)
+    XX XX (length of parameter)
+    XX (type of parameter)
+    XX XX (value of parameter)
+</code></pre>
+<footer>
+    <button class="dark-mode-toggle">Toggle Dark Mode</button>
+</footer>
+<script src="js/darkmode.js"></script>
+</body>
+</html>
