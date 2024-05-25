@@ -42,6 +42,12 @@ button:hover {
     color: #000000;
 }
 
+.dark-mode {
+    border-color: #ffffff;
+    border-style: dashed;
+    border-width: 2px;
+}
+
 html {
     border-color: #000000;
     border-style: dashed;
